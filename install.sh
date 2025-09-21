@@ -8,7 +8,6 @@ clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 
-# Cek dan hapus file AnchProxy lama jika ada
 if [ -f "AnchProxy" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm AnchProxy
